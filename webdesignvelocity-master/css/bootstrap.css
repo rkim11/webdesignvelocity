@@ -4177,12 +4177,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-brand > img {
   display: block;
 }
-@media (min-width: 768px) {
 
-}
 .navbar-toggle {
   position: relative;
-    display: inline;
+  display: inline;
   float: right;
   padding: 8px 8px;
   margin-top: 5px;
@@ -4221,7 +4219,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-bottom: 10px;
   line-height: 20px;
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .navbar-nav .open .dropdown-menu {
     position: static;
     float: none;
@@ -4316,7 +4314,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     top: 0;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .navbar-form .form-group {
     margin-bottom: 5px;
   }
@@ -6045,11 +6043,12 @@ button.close {
 }
 .carousel {
   position: relative;
+  display: inline-block;
 }
 .carousel-inner {
   position: relative;
   width: 100%;
-  overflow: hidden;
+
 }
 .carousel-inner > .item {
   position: relative;
@@ -6135,7 +6134,8 @@ button.close {
   text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
   filter: alpha(opacity=50);
   opacity: .5;
-  z-index: 999;
+  z-index: 999999999999;
+  height: 100%;
 }
 .carousel-control.left {
   background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .0001) 100%);
@@ -6175,7 +6175,7 @@ button.close {
 .carousel-control .icon-prev,
 .carousel-control .glyphicon-chevron-left {
   left: 50%;
-  margin-left: -10px;
+  margin-left: -20px;
 }
 .carousel-control .icon-next,
 .carousel-control .glyphicon-chevron-right {
@@ -6200,7 +6200,7 @@ button.close {
   position: absolute;
   bottom: 10px;
   left: 50%;
-  z-index: 999999999;
+  z-index: 999;
   width: 60%;
   padding-left: 0;
   margin-left: -30%;
@@ -6247,8 +6247,8 @@ button.close {
   .carousel-control .icon-next {
     width: 30px;
     height: 30px;
-    margin-top: -15px;
-    font-size: 30px;
+    margin-top: -13px;
+    font-size: 15px;
   }
   .carousel-control .glyphicon-chevron-left,
   .carousel-control .icon-prev {
