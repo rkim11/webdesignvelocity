@@ -14,10 +14,16 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="velocity/css/velocity.css" rel="stylesheet">
 
+
+
+
     <!--fonts link here-->
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 </head>
+
+
+
 
 <body data-spy="scroll" data-target=".scrollspy" data-offset="50" id="page-top" class="body">
 
@@ -350,7 +356,22 @@
                             <form name="sentMessage" id="contactForm" novalidate>
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <h3>Your Name</h3>
+                                        <h1>1.</h1>
+                                        <h2>MY PERSONAL DETAILS</h2>
+                                       
+                                        <div class="form-group">
+  <label for="sel2">Title:</label>
+  <select class="form-control" id="sel1">
+      <option>Select Title</option>
+    <option>Mr</option>
+    <option>Mstr</option>
+    <option>Mrs</option>
+    <option>Ms</option>
+      <option>Miss</option>
+      <option>Dr</option>
+  </select>
+</div>
+                                        
                                         <div class="form-group">
                                             <input type="text" class="form-control" placeholder="First Name *" id="name" required data-validation-required-message="Please enter your first name.">
                                             <p class="help-block text-danger"></p>
@@ -359,10 +380,12 @@
                                             <input type="text" class="form-control" placeholder="Last Name *" id="name1" required data-validation-required-message="Please enter your last name.">
                                             <p class="help-block text-danger"></p>
                                         </div>
+<!--
                                         <div class="form-group">
                                             <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
                                             <p class="help-block text-danger"></p>
                                         </div>
+-->
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
@@ -372,17 +395,150 @@
 
                                             </div>
 
-                                            <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="BP Temporary Card Number *" id="name2">
+
+                                            </div>
+                                            
+<!--                                            <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>-->
                                             <p class="help-block text-danger"></p>
                                         </div>
-                                        <h3>Contact Information</h3>
-                                        <h4>Home Address</h4>
+                                        <h1>2.</h1>
+                                        <h2>MY CONTACT INFORMATION</h2>
+                                        
                                         <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="First Name *" id="name" required data-validation-required-message="Please enter your first name.">
+  <label for="sel1">Country:</label>
+  <select class="form-control" id="sel2">
+      <option>Select Country</option>
+    <option>Australia</option>
+    <option>Christmas Island</option>
+    <option>Cocos Islands</option>
+    <option>Cook Islands</option>
+      <option>Fiji</option>
+      <option>New Zealand</option>
+      <option>Papua New Guinea</option>
+    <option>Samoa</option>
+      <option>Soloman Islands</option>
+      <option>Tonga</option>
+      <option>Vanuatu</option>
+  </select>
+</div>
+                                        
+                                        
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Address Line 1 *" id="address1" required data-validation-required-message="Please enter your address.">
                                             <p class="help-block text-danger"></p>
                                         </div>
                                 
-                                    <div class="clearfix"></div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Address Line 2 *" id="address2" required data-validation-required-message="Please enter your address.">
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Suburb/City *" id="suburb" required data-validation-required-message="Please enter your surburb/city.">
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                         
+                                        <div class="form-group">
+  <label for="sel3">State:</label>
+  <select class="form-control" id="sel3">
+      <option>Select State</option>
+    <option>ACT</option>
+    <option>NSW</option>
+    <option>NT</option>
+    <option>QLD</option>
+      <option>SA</option>
+      <option>TAS</option>
+      <option>VIC</option>
+    <option>WA</option>
+  </select>
+</div>
+                                 
+                                         <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Postcode *" id="postcode" required data-validation-required-message="Please enter your postcode.">
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                        
+                                         <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Mobile Number *" id="mobile" required data-validation-required-message="You must provide at least one phone number.">
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                        
+                                        <div class="checkbox">
+  <label><input type="checkbox" value="">Yes, I'd like to receive Velocity special offers via SMS/MMS</label>
+</div>
+                                        
+                                        <div class="form-group has-feedback has-warning">
+        <label for="email">Email Address</label>
+        <input type="email" class="form-control"><span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>
+        </div>
+        
+                                        <div class="form-group has-feedback has-warning">
+        <label for="email">Confirm Email Address</label>
+        <input type="email" class="form-control"><span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>
+        </div>
+                    
+<!--
+                                        <div class="form-group has-feedback has-success">
+        <label for="name">Username</label>
+        <input type="text" class="form-control"><span class="glyphicon glyphicon-ok form-control-feedback"></span>
+        </div>
+-->
+                                        <h1>3.</h1>
+                                        <h2>MY SECURITY INFORMATION</h2>
+      <div class="form-group">
+      <label>Date of Birth</label>
+      <input type="date" class="form-control" id="exampleInputDOB1" placeholder="Date of Birth">
+    </div>
+
+                                        <div class="form-group has-feedback has-warning">
+        <label for="password">Password</label>
+        <input type="password" class="form-control"><span class="glyphicon glyphicon-remove form-control-feedback"></span>
+        </div>
+<div class="form-group has-feedback has-warning">
+        <label for="password">Confirm Password</label>
+        <input type="password" class="form-control"><span class="glyphicon glyphicon-remove form-control-feedback"></span>
+        </div>
+
+                                    <div class="form-group">
+  <label for="sel4">Security Question:</label>
+  <select class="form-control" id="sel4">
+      <option>Select Question</option>
+    <option>What was the name of the first school you attended?</option>
+    <option>What is your mother's maiden name?</option>
+    <option>What was the make of your first car?</option>
+    <option>What is your grandmother's first name?</option>
+      <option>Who is your favourite sporting team?</option>
+      <option>What is the country of your dream holiday?</option>
+      <option>What is the name of the first street you lived on?</option>
+    <option>What was your first pet's name?</option>
+  </select>
+</div>
+            
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Security Answer *" id="scanswer" required data-validation-required-message="You must provide an answer.">
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                        
+                                        <h1>4.</h1>
+                                        <h2>Terms and Conditions</h2>
+                                        <p>I have read and agree to be bound by the Terms & Conditions and declare that the details that I have provided in relation to this Velocity Membership application are true and correct. If the application is for membership of a person under 16 years of age, I declare that I am the parent or legal guardian of the applicant. 
+
+I request to receive a Velocity Frequent Flyer membership card with Global Wallet® functionality if I am eligible, which can be used as a Visa Prepaid card* and I agree to receiving disclosures about the Global Wallet® online. The Product Disclosure Statement and Financial Services Guide for the Global Wallet is available online. Further information on how to activate the Global Wallet® feature will be sent to you with your card.
+
+By joining Velocity Frequent Flyer you consent to Velocity sending you a monthly E-Statement with your Points Balance update, Velocity Exclusives, Virgin Australia Updates, Travel Partner Offers, Other Partner Offers, Member Updates, Fuel Partner Offers and Market Research.
+
+You may unsubscribe from these communications at any time by either amending your My Preferences found in My Account or by clicking the unsubscribe link provided on the communications.
+* To use the Global Wallet® functionality on your Velocity membership card, the Global Wallet® must first be activated. Terms and conditions and fees and charges will apply to use of the Global Wallet®. Not all Velocity Frequent Flyer members are eligible to receive a membership card with Global Wallet functionality. If you are not eligible to receive a membership card with Global Wallet functionality, you will receive a standard Velocity Frequent Flyer membership card. You are able to opt out of receiving a membership card with Global Wallet® functionality at any time by visiting My Benefits in your Velocity Account, checking the opt out box and clicking submit.
+
+Velocity Rewards Pty Ltd ACN 116 089 448 acts as authorised representative of Rev Australia Pty Ltd ACN 117 378 953 AFSL 401610 as distributor of the Velocity Global Wallet prepaid Visa product. Rev Australia Pty Ltd manages the Velocity Global Wallet prepaid Visa product for Cuscal Limited ACN 087 822 455 AFSL 244116. Cuscal is the product issuer of the product. Any advice is general advice that does not take account of your objectives, financial situation or needs, so you should consider whether the product is suitable for you before acquiring or activating it. A Product Disclosure Statement (PDS) is available at www.velocityfrequentflyer.com/globalwallet. You should consider the PDS in making any decision about whether to acquire, activate or keep the Velocity Global Wallet prepaid Visa product. The product is available only to Australian resident Velocity Frequent Flyer members. 
+We are collecting your personal information. Please read our Privacy Statement for Membership Join and Privacy Policy located on our website for information about how we will handle this information, our likely overseas disclosures and how you can access or correct your personal information or make a privacy complaint.</p>
+                                        
+                                        
+                                        <label><input type="checkbox" value="">I agree to the Terms and Conditions.</label>
+                                        
+                                        <div class="clearfix"></div>
                                     <div class="col-lg-12 text-center">
                                         <div id="success"></div>
                                         <button type="submit" class="btn btn-xl">NEXT</button>
@@ -393,6 +549,7 @@
                     </div>
                 </div>
                 
+<!--
                 <div class="bs-example">
     <form class="form-horizontal">
         <div class="form-group has-success">
@@ -418,6 +575,7 @@
         </div>
     </form>
 </div>
+-->
             </section>
 
             <!--    ROY KIM'S SHITTY CONTRIBUTION-->

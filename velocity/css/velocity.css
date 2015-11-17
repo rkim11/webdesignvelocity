@@ -599,3 +599,17 @@ div {
     height: 100px;
     background-color: black;
 }
+
+.help-block {
+    color: red;
+}
+
+h1 {
+    font-size: 100px;
+    text-align: left;
+}
+
+h2 {
+    font-size: 18px;
+   
+}
