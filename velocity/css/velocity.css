@@ -613,3 +613,7 @@ h2 {
     font-size: 18px;
    
 }
+
+.navbar-toggle {
+    z-index: 9999999;
+}
