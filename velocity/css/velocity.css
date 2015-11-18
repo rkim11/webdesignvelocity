@@ -648,6 +648,7 @@ h2 {
         text-align: center;
         height: 50px;
         
+        
     }
     .navbar-toggle{
         margin-right: 5.3%;
@@ -662,6 +663,7 @@ h2 {
         z-index:2;
         position: relative;
         background-color: white;
+        margin-top: 100px;
     }
 
     .navbar-default{
@@ -689,7 +691,7 @@ h2 {
         padding: 20px;
         background-color: white;
         clear:both;
-        
+
     }
     .carousel {
         margin-top: 60px;
@@ -701,7 +703,10 @@ h2 {
     .collapse.in{
         visibility: visible;
     }
+    .main{
+        padding-top:40px;
 
+    }
 }
 
 
