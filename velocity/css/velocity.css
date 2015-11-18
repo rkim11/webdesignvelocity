@@ -91,7 +91,7 @@
 .navbar-brand {
     color:#d00000; 
     height: 100px;
-    margin: 0 auto;
+    margin: 20px auto 0 auto;
     width:30%;
     position: relative;
 
@@ -493,11 +493,11 @@ color: black;
         color: #980000;
         text-align: center;
         height: 50px;
-        
+        display: block;
     }
     .navbar-toggle{
         margin-right: 5.3%;
-        margin-top: -40px;
+        margin-top:-40px;
         z-index: 9999;
     }
     .navbar-toggle:hover > span{
@@ -651,7 +651,7 @@ h2 {
     }
     .navbar-toggle{
         margin-right: 5.3%;
-        margin-top: 40px;
+  
         z-index: 2;
         display: inline;
     }
