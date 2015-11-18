@@ -79,13 +79,11 @@
 .page-scroll {
     display:inline;
     position:absolute;
-    width:70%;
+    width:100%;
     top:0;
     bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
     z-index: 10;
-    
+
 }
 
 .navbar-brand {
@@ -163,7 +161,7 @@
   bottom: 0;
   left: 0;
   width: 15%;
-  font-size: 20px;
+  font-size: 10px;
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
@@ -538,7 +536,7 @@ color: black;
     }
     .carousel {
         margin-top: 60px;
-        
+
     }
     .carousel-control{
         height:100%;
@@ -604,7 +602,7 @@ div {
     color: red;
 }
 
-h1 {
+.form h1 {
     font-size: 100px;
     text-align: left;
 }
@@ -636,10 +634,27 @@ h2 {
 }
 
 .blackbox {
+    display:block;
+    position:absolute;
     width:100%;
-    height:100%;
-    z-index: 9999;
-    background-color: black;
+    top:0;
+    bottom: 0;
+
+    background-color: rgba(0, 0, 0, 0);
+
+    z-index: 8;
+
+
+    margin: 0 auto;
+
+
+    vertical-align:middle;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14pt;
+
+    -webkit-transition: background-color 1s;
 }
 @media screen and (max-width: 768px) {
 
@@ -693,10 +708,7 @@ h2 {
         clear:both;
 
     }
-    .carousel {
-        margin-top: 60px;
-        
-    }
+
     .carousel-control{
         height:100%;
     }
@@ -714,4 +726,12 @@ h2 {
 
 
     
+}
+.carousel:hover .carousel-inner .blackbox{
+    background-color: rgba(0, 0, 0, 0.3);
+ 
+}
+
+.glyphicon {
+    font-size: 10pt;
 }
