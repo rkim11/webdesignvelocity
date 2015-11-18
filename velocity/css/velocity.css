@@ -616,4 +616,97 @@ h2 {
 
 .navbar-toggle {
     z-index: 9999999;
+    display: none;
+}
+
+.buttonCarousel:hover {
+    
+    z-index: 98;
+    background-color: black;
+    width:100px;
+    height:100px;
+    
+    
+}
+
+.buttonCarousel {
+    height:100px;
+    width:100px;
+    background-color: blue;
+}
+
+.blackbox {
+    width:100%;
+    height:100%;
+    z-index: 9999;
+    background-color: black;
+}
+@media screen and (max-width: 768px) {
+
+    .navbar-brand{
+        color: #980000;
+        text-align: center;
+        height: 50px;
+        
+    }
+    .navbar-toggle{
+        margin-right: 5.3%;
+        margin-top: 40px;
+        z-index: 2;
+        display: inline;
+    }
+    .navbar-toggle:hover > span{
+        background-color: #777;
+    }
+    #bs-example-navbar-collapse-1{
+        z-index:2;
+        position: relative;
+        background-color: white;
+    }
+
+    .navbar-default{
+        height:80px;   
+    }
+    .small-text{
+        width:85%;
+        margin: 0 auto;
+    }
+    .top-head{
+        height: 20px;  
+    }
+    .navbar{
+        display: block; 
+        
+    }
+    .header-container{
+        position: fixed;
+        top:0;
+        left:0;
+        right:0;
+        z-index: 9999;
+        width:100%;
+        height:90px;
+        padding: 20px;
+        background-color: white;
+        clear:both;
+        
+    }
+    .carousel {
+        margin-top: 60px;
+        
+    }
+    .carousel-control{
+        height:100%;
+    }
+    .collapse.in{
+        visibility: visible;
+    }
+
+}
+
+
+@media screen and (max-width: 445px){
+
+
+    
 }
